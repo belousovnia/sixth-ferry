@@ -1,0 +1,104 @@
+@import './constant.scss';
+@import './tile-data.scss';
+@import './table.scss';
+@import './search.scss';
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-color: #F5F5F8;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 1px;
+}
+
+.container_line {
+  border-left: 1px solid #000;
+  
+  position: relative;
+  left: 0;
+}
+
+
+.main-item-block {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  margin-left: 41px;
+}
+
+.content_tile {
+  padding-left: 24px;
+  margin-left: 41px;
+  margin-top: 16px;
+  border-left: 1px solid #000;
+  display: grid;
+  grid-template-columns: repeat(4, 313px);
+}
+
+.content__column {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.first-content {
+  margin-left: 16px;
+}
+
+.item-block {
+  padding-top: 16px;
+  border-left: 1px solid #000;
+  display: flex;
+  align-items: center;
+  position: relative;
+  right: 1px;
+}
+
+.item-block_origin {
+  border-left: 0;
+}
+
+.line {
+  width: 25px;
+  border-bottom: 1px solid #000;
+  position: relative;
+  top: 18px;
+  z-index: 0;
+}
+
+.line_origin {
+  border: 0;
+}
+
+.name-block {
+  height: 36px;
+  min-width: 67px;
+  width: auto;
+  padding: 8px;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  background-color: $blockColor;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 18px;
+  z-index: 2;
+  text-align: center;
+}
+

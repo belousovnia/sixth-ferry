@@ -1,0 +1,44 @@
+@import './constant.scss';
+
+.tile-data {
+  margin-top: 16px;
+  margin-right: 16px;
+  width: 297px;
+  box-sizing: border-box;
+  background-color: $tileBackgroundColor;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.tile-data__title-container {
+  height: 67px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border: 1px solid $borderTileColor;
+}
+
+.tile-data__title-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tile-data__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.tile-data__subTitle {
+ margin: 0;
+ font-size: 14px;
+ font-weight: 300;
+}
+
+.tile-data__data-block {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 14px;
+}

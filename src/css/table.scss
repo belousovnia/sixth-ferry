@@ -1,0 +1,82 @@
+@import './constant.scss';
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  border-top: 0;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.table_off {
+  display: none;
+}
+
+.table__row {
+}
+
+.table__column_queue {
+  text-align: center;
+  width: 34px;
+  border-top: 1px solid $tableLineColor;
+  border-right: 1px solid $tableLineColor;
+}
+
+.table__column_title {
+  width: auto;
+  border-top: 1px solid $tableLineColor;
+  padding-left: 4px;
+  box-sizing: border-box;
+
+  .table__arrow-contain {
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+}
+
+.table__column_number {
+  text-align: center;
+  width: 64px;
+  border-top: 1px solid $tableLineColor;
+  border-left: 1px solid $tableLineColor;
+}
+
+.table__column-head {
+  border: 1px solid #000;
+  border-top: 0;
+  position: relative;
+}
+
+.table__column {
+}
+
+.table__arrow {
+  width: 7px;
+  height: 4px;
+}
+
+.table__arrow-contain {
+  padding-right: 2px;
+  padding-left: 2px;
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top: 0;
+  display: none;
+  justify-content: end;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.table__column-head_arrow-min {
+  .table__arrow {
+    transform: rotate(180deg);
+  }
+}
+
+.table__column-head_arrow-on {
+  .table__arrow-contain {
+    display:flex;
+  }
+}
