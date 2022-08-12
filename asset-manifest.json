@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sixth-ferry/static/css/main.ab021583.css",
+    "main.js": "/sixth-ferry/static/js/main.ab49fe31.js",
+    "static/js/787.aeb67e0a.chunk.js": "/sixth-ferry/static/js/787.aeb67e0a.chunk.js",
+    "index.html": "/sixth-ferry/index.html",
+    "main.ab021583.css.map": "/sixth-ferry/static/css/main.ab021583.css.map",
+    "main.ab49fe31.js.map": "/sixth-ferry/static/js/main.ab49fe31.js.map",
+    "787.aeb67e0a.chunk.js.map": "/sixth-ferry/static/js/787.aeb67e0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab021583.css",
+    "static/js/main.ab49fe31.js"
+  ]
+}
