@@ -1,5 +1,6 @@
 {
   "name": "sixth-ferry",
+  "homepage": "https://belousovnia.github.io/sixth-ferry",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
